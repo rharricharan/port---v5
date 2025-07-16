@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Desktop Spline -->
+        <div class="spline-container">
+            <spline-viewer class="spline-viewer" url="https://prod.spline.design/PjPSXSz2NdSSJwdH/scene.splinecode"></spline-viewer>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="menu-container">
+            <div class="menu-wrapper">
+                <div class="menu-header">
+                    <a class="name-tag" href="#">
+                        Ryan Harricharan
+                    </a>
+                    <div id="est-clock"></div>
+                    <div id="custom-tooltip" class="custom-tooltip">You are home :)</div>
+                </div>
+                <div class="menu-title-container">
+                    <h1 class="menu-title-text">
+                        An award winning multidisciplinary designer crafting interfaces that are useful and feel
+                        natural. Currently a UX Lead at The Maryland School for the Blind, Previously designed at Smartstop® and has worked for BMW and Our Next Energy®.
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.31/build/spline-viewer.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/tooltips.js"></script>
+</body>
+</html>
