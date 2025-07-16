@@ -15,7 +15,7 @@ function updateESTClock() {
   hours = hours % 12;
   if (hours === 0) hours = 12;
   const pad = n => n.toString().padStart(2, '0');
-  clock.textContent = `EST ${pad(hours)}:${pad(minutes)}:${pad(seconds)}${ampm}`;
+  clock.textContent = `EST ${pad(hours)}:${pad(minutes)} ${ampm}`;
 }
 setInterval(updateESTClock, 1000);
 updateESTClock();
