@@ -244,3 +244,17 @@ a {
 .menu-project-item:hover {
     background: rgba(0,0,0,1);
 }
+
+/* Iridescent Wave */
+#iridescent-wave {
+    pointer-events: none;
+    position: fixed;
+    left: 0; top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    transition: background 0.2s;
+    mix-blend-mode: lighten;
+    opacity: 0.7;
+    will-change: background;
+}
