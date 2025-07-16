@@ -244,3 +244,26 @@ a {
 .menu-project-item:hover {
     background: rgba(0,0,0,1);
 }
+
+.menu-project-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.menu-project-description-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.time-tag {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
