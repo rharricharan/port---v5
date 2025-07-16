@@ -54,7 +54,7 @@ a {
 .menu-container {
     width: 700px;
     height: 100%;
-    padding: 16px;
+    padding: 16px 16px 16px 0px;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -67,10 +67,10 @@ a {
 }
 
 .name-tag {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    letter-spacing: -0.5px;
+    letter-spacing: -0.25px;
     line-height: 140%;
     padding: 4px 8px;
     border-radius: 4px;
@@ -85,10 +85,10 @@ a {
 
 /* Clock */
 #est-clock {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.6);
-    letter-spacing: -0.5px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: -0.25px;
     line-height: 140%;
     padding: 4px 8px;
     border-radius: 4px;
@@ -105,12 +105,12 @@ a {
 .menu-title-container {
     width: 100%;
     height: auto;
-    margin-top: 32px;
+    margin-top: 36px;
 }
 
 .menu-title-text {
     width: 100%;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 140%;
@@ -157,7 +157,7 @@ a {
 
 .menu-projects-container {
     width: 100%;
-    margin-top: 32px;
+    margin-top: 36px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -166,10 +166,10 @@ a {
 }
 
 .menu-projects-title {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
-    letter-spacing: -0.5px;
+    letter-spacing: -0.25px;
     line-height: 140%;
 }
 
@@ -186,7 +186,7 @@ a {
 .menu-project-item {
     width: 100%;
     display: flex;
-    padding: 8px 16px;
+    padding: 6px 12px;
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.05);
     flex-direction: row;
@@ -195,19 +195,21 @@ a {
 }
 
 .menu-project-item-title {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.8);
-    letter-spacing: -0.5px;
+    letter-spacing: -0.25px;
     line-height: 140%;
 }
 
 .menu-project-item-description {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    letter-spacing: -0.5px;
+    letter-spacing: -0.25px;
     line-height: 140%;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .menu-project-item:hover {
