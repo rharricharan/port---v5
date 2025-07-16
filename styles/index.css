@@ -8,6 +8,11 @@ body {
     caret-color: #000;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -44,7 +49,6 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 24px;
 }
 
 .menu-container {
@@ -101,6 +105,7 @@ a {
 .menu-title-container {
     width: 100%;
     height: auto;
+    margin-top: 32px;
 }
 
 .menu-title-text {
@@ -143,4 +148,97 @@ a {
 .custom-tooltip.exit {
     opacity: 0;
     transform: translate(-50%, 20px) scale(0.98);
+}
+
+/* Menu Projects */
+.menu-content-container {
+    width: 100%;
+}
+
+.menu-projects-container {
+    width: 100%;
+    margin-top: 32px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menu-projects-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: -0.5px;
+    line-height: 140%;
+}
+
+.menu-projects-list {
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+}
+
+.menu-project-item {
+    width: 100%;
+    display: flex;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.05);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-project-item-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: -0.5px;
+    line-height: 140%;
+}
+
+.menu-project-item-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: -0.5px;
+    line-height: 140%;
+}
+
+.menu-project-item:hover {
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.menu-project-item:hover .menu-project-item-title {
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu-project-item:hover .menu-project-item-description {
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu-content-container,
+.menu-projects-container,
+.menu-projects-list {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.menu-project-item {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.03);
+    text-decoration: none;
+}
+
+.menu-project-item:hover {
+    background: rgba(0,0,0,1);
 }

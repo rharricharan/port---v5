@@ -1,6 +1,6 @@
 const routes = {
   '/': '<h1>Home</h1>',
-  '/about': '<h1>About</h1>',
+  '/smartstop': '<h1>Smartstop®</h1>',
   '/contact': '<h1>Contact</h1>',
 };
 
